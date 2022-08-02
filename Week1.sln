@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsDemo", "LoopsDemo\LoopsDemo.csproj", "{FA727BB9-5D2F-43F2-B0C2-9D2F3948545A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoAgain", "GoAgain\GoAgain.csproj", "{EF6CE712-1DB3-483C-9CF0-2B19406EFFAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +54,14 @@ Global
 		{DE5294A9-B671-455E-926B-B9DBC22EDB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE5294A9-B671-455E-926B-B9DBC22EDB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE5294A9-B671-455E-926B-B9DBC22EDB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA727BB9-5D2F-43F2-B0C2-9D2F3948545A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA727BB9-5D2F-43F2-B0C2-9D2F3948545A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA727BB9-5D2F-43F2-B0C2-9D2F3948545A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA727BB9-5D2F-43F2-B0C2-9D2F3948545A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6CE712-1DB3-483C-9CF0-2B19406EFFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6CE712-1DB3-483C-9CF0-2B19406EFFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6CE712-1DB3-483C-9CF0-2B19406EFFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6CE712-1DB3-483C-9CF0-2B19406EFFAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
