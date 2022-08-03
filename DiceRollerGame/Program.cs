@@ -19,8 +19,11 @@ do
     int userDice = Convert.ToInt32(Console.ReadLine());
 
     // Creating dice variables and rolling the dice
-    int diceOne = ran.Next(1, (userDice + 1));
-    int diceTwo = ran.Next(1, (userDice + 1));
+    //int diceOne = ran.Next(1, (userDice + 1));
+    //int diceTwo = ran.Next(1, (userDice + 1));
+
+    int diceOne = 4;
+    int diceTwo = 8;
 
     Console.WriteLine($"The first dice landed on: {diceOne}");
     Console.WriteLine($"The second dice landed on: {diceTwo}");
@@ -92,5 +95,5 @@ do
     } while (valid == false);
 
 } while (keepgoing);
-
+Console.WriteLine();
 Console.WriteLine("Thanks for playing!");
