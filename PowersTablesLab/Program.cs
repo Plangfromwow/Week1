@@ -5,17 +5,20 @@ bool loop = true;
 do
 {
     // Asking for integer
+    // 2467 is the highest it can go
     Console.WriteLine();
-    Console.Write("Enter an Integer between 1 and 100:");
+    Console.Write("Enter an Integer between 1 and 2467:");
     int num = Convert.ToInt32(Console.ReadLine());
 
-    while (num !< 0 || num !> 100)
+    // Verify valid number has been chosen
+    while (num! < 0 || num! > 2467)
     {
-        Console.WriteLine("Must be a number between 1 and 100.");
-        Console.Write("Enter an Integer between 1 and 100:");
+        Console.WriteLine("Must be a number between 1 and 2467.");
+        Console.Write("Enter an Integer between 1 and 2467:");
         num = Convert.ToInt32(Console.ReadLine());
     }
 
+    // creating the table
     Console.Write("Number\tSquared\tCubed");
     Console.WriteLine();
     Console.WriteLine("======\t======\t======");
@@ -26,6 +29,7 @@ do
         Console.WriteLine();
     }
 
+    // would you like to play again prompt
     bool valid = true;
     do
     {
@@ -49,6 +53,6 @@ do
         }
 
     } while (valid == false);
-    
+
 
 } while (loop);
