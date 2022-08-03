@@ -30,9 +30,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "Shapes\Shapes.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowersTablesLab", "PowersTablesLab\PowersTablesLab.csproj", "{2CD8DC31-8B01-4CDC-83A1-D0D4929590EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{1C0102A4-9C0E-4DBA-9E0E-275326ADE9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{1C0102A4-9C0E-4DBA-9E0E-275326ADE9F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Demo 2", "Method Demo 2\Method Demo 2.csproj", "{6BF5E37B-1A8A-4D5D-B7C1-85EAEDF0C45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Method Demo 2", "Method Demo 2\Method Demo 2.csproj", "{6BF5E37B-1A8A-4D5D-B7C1-85EAEDF0C45A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomDemo", "RandomDemo\RandomDemo.csproj", "{83F3F9C6-F743-460B-B0F3-DAA4E4F58CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollerGame", "DiceRollerGame\DiceRollerGame.csproj", "{E3A19967-4B88-4441-88FB-F1CDF26E3F55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -92,6 +96,14 @@ Global
 		{6BF5E37B-1A8A-4D5D-B7C1-85EAEDF0C45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BF5E37B-1A8A-4D5D-B7C1-85EAEDF0C45A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BF5E37B-1A8A-4D5D-B7C1-85EAEDF0C45A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F3F9C6-F743-460B-B0F3-DAA4E4F58CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F3F9C6-F743-460B-B0F3-DAA4E4F58CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F3F9C6-F743-460B-B0F3-DAA4E4F58CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F3F9C6-F743-460B-B0F3-DAA4E4F58CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A19967-4B88-4441-88FB-F1CDF26E3F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A19967-4B88-4441-88FB-F1CDF26E3F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A19967-4B88-4441-88FB-F1CDF26E3F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A19967-4B88-4441-88FB-F1CDF26E3F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
