@@ -5,8 +5,16 @@ bool loop = true;
 do
 {
     // Asking for integer
+    Console.WriteLine();
     Console.Write("Enter an Integer between 1 and 100:");
     int num = Convert.ToInt32(Console.ReadLine());
+
+    while (num !< 0 || num !> 100)
+    {
+        Console.WriteLine("Must be a number between 1 and 100.");
+        Console.Write("Enter an Integer between 1 and 100:");
+        num = Convert.ToInt32(Console.ReadLine());
+    }
 
     Console.Write("Number\tSquared\tCubed");
     Console.WriteLine();
